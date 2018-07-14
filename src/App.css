@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+body{
+  margin: 0;
+  padding: 0;
+}
+.App {
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+  position: relative;
+}
+img {
+  width: 100%;
+}
+.button-container{
+  position: absolute;
+  top: 25%;
+  width: 100%;
+}
+.button-container .left{
+  float: left;
+}
+.button-container .right{
+  float: right;
+}
+.button-container button {
+  height: 4rem;
+  background-color: rgba(0,0,0,0.2);
+  border: none;
+  color: white;
+  font-size: 3rem;
+
+}
+.image-description {
+  padding: .75rem;
+}
+.image-description h3{
+  font-size: 2rem;
+line-height: 1rem;
+text-transform: uppercase;
+}
+.image-description p {
+  font-size: 1.2rem;
+line-height: 1.4rem;
+text-transform: capitalize;
+}
